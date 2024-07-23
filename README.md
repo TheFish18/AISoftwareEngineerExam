@@ -3,7 +3,7 @@
 Welcome to the AI Software Engineer Code Challenge for Orbis Labs. This challenge is designed to assess your understanding of basic Python concepts, particularly focusing on custom class implementation and data handling.
 
 # Setup Steps:
-1. Navigate to [challenge](https://github.com/thefish18/AISoftwareEngineerExam)
+1. Navigate to [challenge](https://github.com/TheFish18/AISoftwareEngineerExam.git)
 2. Fork The Repository:
    - Click the "Fork" button at the top right of this page to create a copy of this repository under your own GitHub account.
 3. Clone the Repository:
@@ -25,7 +25,7 @@ Your task is to open dataset.py and implement the EvenDataset class. This class 
 dset = EvenDataset(2, 10)
 print(dset[0])  # Output: 2
 print(dset[1])  # Output: 4
-
+print(dset[1:]) # Output: [4, 6, 8]
 ```
 ## Checklist:
 - [ ] Your implementation must work for any values `b` > `a` > 1
@@ -43,7 +43,7 @@ Run `pyton -m time_dataset --h` for help.
 When you have a solution you are happy with:
 1. push your local repo to github
    - `git push origin main`
-2. Navigate to [challenge](https://github.com/thefish18/AISoftwareEngineerExam) > Pull requests > New pull request > compare across forks
+2. Navigate to [challenge](https://github.com/TheFish18/AISoftwareEngineerExam.git) > Pull requests > New pull request > compare across forks
 3. Your PR should attempt to merge into AISoftwareEngineerExam/submissions
 
 # Explanation of Dunder Methods
