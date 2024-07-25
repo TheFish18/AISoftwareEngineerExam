@@ -44,7 +44,7 @@ When you have a solution you are happy with:
 1. push your local repo to github
    - `git push origin main`
 2. Navigate to [challenge](https://github.com/TheFish18/AISoftwareEngineerExam.git) > Pull requests > New pull request > compare across forks
-3. Your PR should attempt to merge into AISoftwareEngineerExam/submissions
+3. Your PR should attempt to merge into AISoftwareEngineerExam/submission
 
 # Explanation of Dunder Methods
 Dunder methods, also known as "magic methods," are special methods in Python that begin and end with double underscores `(__)`. They allow instances of classes to interact with Python's built-in operators and functions, enabling custom behavior.
