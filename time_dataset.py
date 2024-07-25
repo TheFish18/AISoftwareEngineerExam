@@ -22,7 +22,7 @@ if __name__ == "__main__":
     from argparse import ArgumentParser
 
     parser = ArgumentParser(description="Test Implementation of EvenDataset")
-    parser.add_argument("--module_name", type=str, default="dataset_test", help="module name that contains EvenDataset, default 'dataset'")
+    parser.add_argument("--module_name", type=str, default="dataset", help="module name that contains EvenDataset, default 'dataset'")
     parser.add_argument("--class_name", type=str, default="EvenDataset", help="class name to import, default 'EvenDataset'")
 
     args = parser.parse_args()
